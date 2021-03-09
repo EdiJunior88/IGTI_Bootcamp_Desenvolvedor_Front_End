@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Formulário</title>
+</head>
+<body>
+  <form action="./pagina-que-existe">
+    <p>
+      <label for="itext">Campo de texto:</label>
+      <input type="text" name="itext" id="itext">
+    </p>
+
+    <p>
+      <label for="itext2">Campo somente leitura:</label>
+      <input readonly name="itext2" id="itext2" value="Não Editável">
+    </p>
+
+    <p>
+      <label for="itext3">Campo desabilitado:</label>
+      <input disabled name="itext3" id="itext3" value="Desabilitado">
+    </p>
+
+    <p>
+      <label for="inum">Campo numérico:</label>
+      <input type="number" id="inum">
+    </p>
+
+    <p>
+      <label for="idate">Campo de data:</label>
+      <input type="date" id="idate">
+    </p>
+
+    <p>
+      <label for="ifile">Campo de arquivo:</label>
+      <input type="file" id="ifile">
+    </p>
+
+    <p>
+      <label for="ipassw">Campo de senha:</label>
+      <input type="password" id="ipassw">
+    </p>
+
+    <p>
+      Escolha sim ou não <br>
+      <label><input type="radio" name="iradio" value="1">Sim</label>
+      <label><input type="radio" name="iradio" value="2">Não</label>
+    </p>
+
+    <p>
+      Escolha todas as frutas que você gosta: <br>
+      <label><input type="checkbox" name="icheck" value="1">Banana</label>
+      <label><input type="checkbox" name="icheck" value="2">Laranja</label>
+      <label><input type="checkbox" name="icheck" value="3">Maçã</label>
+      <label><input type="checkbox" name="icheck" value="4">Uva</label>
+    </p>
+
+    <p>
+      Select simples:
+      <select name="select">
+        <option value="valor1">Valor 1</option>
+        <option value="valor2" selected>Valor 2</option>
+        <option value="valor3">Valor 3</option>
+      </select>
+    </p>
+
+    <p>
+      Select múltiplo:
+      <select name="select" multiple>
+        <option value="valor1">Valor 1</option>
+        <option value="valor2" selected>Valor 2</option>
+        <option value="valor3">Valor 3</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="tarea">Área de texto:</label>
+      <textarea 
+        name="tarea" 
+        id="tarea" 
+        rows="6"
+        placeholder="Digite aqui"
+        ></textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar formulário">
+    </p>
+  </form>
+</body>
+</html>
