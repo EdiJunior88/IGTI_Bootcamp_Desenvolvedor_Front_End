@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../3.3_Dimensionamento_e_posicionamento/block-vs-inline.css">
+  <title>block vs inline</title>
+</head>
+<body>
+  <div>Div</div>
+
+  <p>Parágrafo</p>
+  Texto solto induz a criação de um inline box implícito
+  <span>span 1</span> <span>span 2</span> <span>span 3</span> <span>span 4</span> <a href="#">link 1</a>
+
+  <div class="destaque">
+    Block box respeita width, height, border, padding e margin.
+  </div>
+
+  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+  <div class="destaque" style="box-sizing: border-box;">
+    Com <code>box-sizing: border-box</code> width e height consideram borda e padding.
+  </div>
+
+  <div class="destaque">
+    Margens verticais adjacentes se sobrepõem (margin collapse).
+  </div>
+
+  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+  <span class="destaque">Inline box ignora tamanho</span>
+
+  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+  bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+</body>
+</html>

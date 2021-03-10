@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Align</title>
+  <style>
+    .caixa{
+      width: 50%;
+      background-color: cyan;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    Texto à esquerda (padrão) <br>
+    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+    <div class="caixa">DIV</div> 
+  </div>
+
+  <div style="text-align: center;">
+    Texto centralizador <br>
+    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+    <div class="caixa">DIV</div> 
+  </div>
+
+  <div style="text-align: right;">
+    Texto à direita <br>
+    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+    <div class="caixa">DIV</div> 
+  </div>
+
+  <div class="caixa" style="margin-left: auto;">DIV na direita</div>
+
+  <div class="caixa" style="margin: auto;">DIV no centro</div>
+
+  <div class="caixa" style="margin: auto; width: unset;">
+    Não funciona se width não for definido.
+  </div>
+</body>
+</html>
