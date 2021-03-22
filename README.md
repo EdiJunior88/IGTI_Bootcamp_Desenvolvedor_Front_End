@@ -15,4 +15,4 @@
 <hr/>
 
 <h4><b>Aulas:</b> :vhs: 4 Módulos + Video-aulas + Desafio Final</h4>
-<h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
+<h4><b>Status do Curso:</b>:triangular_flag_on_post: Parado por tempo indeterminado</h4>
